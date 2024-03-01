@@ -33,6 +33,13 @@ lf_7 <- read_csv("literature_files/AL_savedrecs-7.csv", col_names = TRUE)
 lf_8 <- read_csv("literature_files/AL_savedrecs-8.csv", col_names = TRUE)
 lf_9 <- read_csv("literature_files/AL_savedrecs-9.csv", col_names = TRUE)
 lf_10 <- read_csv("literature_files/AL_savedrecs-10.csv", col_names = TRUE)
+lf_11 <- read_csv("literature_files/AL_savedrecs-11.csv", col_names = TRUE)
+lf_12 <- read_csv("literature_files/AL_savedrecs-12.csv", col_names = TRUE)
+lf_13 <- read_csv("literature_files/AL_savedrecs-13.csv", col_names = TRUE)
+lf_14 <- read_csv("literature_files/AL_savedrecs-14.csv", col_names = TRUE)
+lf_15 <- read_csv("literature_files/AL_savedrecs-15.csv", col_names = TRUE)
+lf_16 <- read_csv("literature_files/AL_savedrecs-16.csv", col_names = TRUE)
+lf_17 <- read_csv("literature_files/AL_savedrecs-17.csv", col_names = TRUE)
 
 
 lemasson_search_records <- rbind(lf_1[,1:79],
@@ -44,7 +51,14 @@ lemasson_search_records <- rbind(lf_1[,1:79],
                                  lf_7[,1:79],
                                  lf_8[,1:79],
                                  lf_9[,1:79],
-                                 lf_10[,1:79])
+                                 lf_10[,1:79],
+                                 lf_11[,1:79],
+                                 lf_12[,1:79],
+                                 lf_13[,1:79],
+                                 lf_14[,1:79],
+                                 lf_15[,1:79],
+                                 lf_16[,1:79],
+                                 lf_17[,1:79])
 
 
 
